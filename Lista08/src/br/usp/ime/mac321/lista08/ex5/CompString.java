@@ -1,4 +1,4 @@
-package ex5;
+package br.usp.ime.mac321.lista08.ex5;
 
 public class CompString {
 

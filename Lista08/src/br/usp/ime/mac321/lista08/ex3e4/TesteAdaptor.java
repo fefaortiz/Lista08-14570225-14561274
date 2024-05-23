@@ -1,4 +1,4 @@
-package ex3e4;
+package br.usp.ime.mac321.lista08.ex3e4;
 
 public class TesteAdaptor {
     public static void main(String[] args) {
