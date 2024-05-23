@@ -40,6 +40,11 @@ public class ConjSetAdapter<T> implements Adaptor<T> {
     public Iterator<T> iterator() {
         return multiconjunto.elementos.iterator();
     }
+
+    @Override
+    public String toString() {
+        return multiconjunto.getElements().toString();
+    }
 }
 
 

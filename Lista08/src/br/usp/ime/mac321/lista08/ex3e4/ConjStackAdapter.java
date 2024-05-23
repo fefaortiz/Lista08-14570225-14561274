@@ -45,6 +45,11 @@ public class ConjStackAdapter<T> implements Adaptor<T> {
         Set<T> uniqueElements = new HashSet<>(multiconjunto.elementos);
         return uniqueElements.iterator();
     }
+
+    @Override
+    public String toString() {
+        return multiconjunto.getElements().toString();
+    }
 }
 
 

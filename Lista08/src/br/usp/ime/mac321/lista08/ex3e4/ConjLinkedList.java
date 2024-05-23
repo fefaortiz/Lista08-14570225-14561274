@@ -26,5 +26,10 @@ public class ConjLinkedList<T> {
     public String toString() {
         return elementos.toString();
     }
+
+    // get elements para dar acesso ao elementos
+    public List<T> getElements() {
+        return elementos;
+    }
 }
 

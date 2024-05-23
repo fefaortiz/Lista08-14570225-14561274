@@ -41,4 +41,9 @@ public class ConjArrayListAdapter<T> implements Adaptor<T> {
         Set<T> uniqueElements = new HashSet<>(multiconjunto.getElements());
         return uniqueElements.iterator();
     }
+
+    @Override
+    public String toString() {
+        return multiconjunto.getElements().toString();
+    }
 }

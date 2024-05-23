@@ -21,6 +21,11 @@ public class ConjStack<T> {
         this.elementos.addAll(m.elementos);
     }
 
+    // get elements para dar acesso ao elementos
+    public Stack<T> getElements() {
+        return elementos;
+    }
+
     // preciso disso pra poder printar direitinho no teste..
     @Override
     public String toString() {

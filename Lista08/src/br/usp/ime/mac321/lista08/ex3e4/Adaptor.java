@@ -15,6 +15,7 @@ public interface Adaptor<T> extends Iterable<T> {
     boolean remove(T element);
     int size();
     Iterator<T> iterator();
+    String toString();
 }
 
 // Para cada um dos 4 objetos criados em ex3, será criado um Adaptor correspondente.
