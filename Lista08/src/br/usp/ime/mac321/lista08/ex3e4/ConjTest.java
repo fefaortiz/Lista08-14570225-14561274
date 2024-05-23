@@ -5,6 +5,10 @@ import org.junit.Test;
 
 public class ConjTest {
 
+    // Espera-se que as comparações sejam falsas para a lista, a lista
+    // ligada e a pilha. Já nos conjuntos, {a,b} e {b,a} devem ser o mesmo.
+
+
     @Test
     public void testArrayListAddAllAndEquals() {
         ConjArrayList<String> arrayList1 = new ConjArrayList<>();
